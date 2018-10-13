@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja"
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Koumoto Junichi's WEB SITE</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="pagePiling.js plugin by Alvaro Trigo." />
+	<meta name="keywords"  content="河本純一,java,javascript,エンジニア,javaエンジニア,linux,jquery,spring,javaEE,playframework" />
+	<meta name="Resource-type" content="Document" />
+
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300,400,700" />
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/jquery.pagepiling.css" />
+	<link rel="stylesheet" type="text/css" href="./css/style.css" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+	<script type="text/javascript" src="./js/jquery.pagepiling.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+	    	$('#pagepiling').pagepiling({
+			    sectionsColor: ['#bfda00', '#2ebe21', '#2e5e2f', '#ffffff'],
+			    navigation: {
+			    	'position': 'right',
+			   		'tooltips': ['ホーム', 'プロフィール', 'スキル', 'コンタクト']
+			   	}
+			});
+	    });
+    </script>
+</head>
+<body>
+	<div id="pagepiling">
+	    <div class="section" id="section1">
+	    	<h1>Koumoto Junichi's WEB SITE</h1>
+			<h2>～ Java Engeneer ～</h2>
+			<br />
+	    </div>
+	    <div class="section" id="section2">
+	    	<div class="intro">
+				<table>
+					<tr>
+						<td>
+							<img src="./imgs/face.png">
+						</td>
+						<td>
+							<h1>Profile</h1>
+							<br />
+							<div class="pro">
+								<h2>Java Engeneer</h2>
+								<p>大学は理学部化学科で化学の授業でプログラミングの授業があり、そこからITの道に進む。
+									IT系の大学院で修士号を取得。大阪でJavaエンジニアをやってます.
+								</p>
+							</div>
+						</td>
+					</tr>
+				</table>
+	    	</div>
+		</div>
+		<div class="section" id="section３">
+	    	<h1>Skills</h1>
+			<div class="skills-wrapper">
+				<div class="skill-box">
+					<h2>
+						<div class="skill-title">Java</div>
+					</h2>
+					<p class="skill-text">
+						学生のころからずっと使い続けている言語で自信があります
+					</p>
+				</div>
+				<div class="skill-box">
+					<h2>
+						<div class="skill-title">Spring</div>
+					</h2>
+					<p class="skill-text">
+				 		最近一番よく使うFWです
+					</p>
+				</div>
+				<div class="skill-box">
+					<h2>
+						<div class="skill-title">JavaScript</div>
+					</h2>
+					<p class="skill-text">
+						実務ではjQueryをよく使います.Reactを勉強中
+					</p>
+				</div>
+			</div>
+			<div class="skills-wrapper">
+				<div class="skill-box">
+					<h2>
+						<div class="skill-title">Git</div>
+					</h2>
+					<p class="skill-text">
+						現場でGitを導入した際の旗振り役を経験
+					</p>
+				</div>
+				<div class="skill-box">
+					<h2>
+						<div class="skill-title">Linux</div>
+					</h2>
+					<p class="skill-text">
+				 		Dockerなどのコンテナ技術に興味あり
+					</p>
+				</div>
+				<div class="skill-box">
+					<h2>
+						<div class="skill-title">PHP</div>
+					</h2>
+					<p class="skill-text">
+						ﾁｮｯﾄﾀﾞｹﾃﾞｷﾙ
+					</p>
+				</div>
+			</div>
+	    </div>
+	    <div class="section" id="section4">
+	    	<div class="contact">
+				<h1>Contact</h1>
+				<div class="spacer"></div>
+				<h2>junjun ' at ' koumotoj.com</h2>
+				<div class="spacer"></div>
+				<input type="button" class="contact-button" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSfzU8WTd8K3ttK5QxGo9bxPJb5jwIb4-sPT_t35XaNOzbZixw/viewform?usp=sf_link'"value="投稿フォームへ">
+			</div>
+			<div class="subsection">
+				<div class="lsf-icon">
+					<a href="https://www.facebook.com/junjunkoumoto" class="lsf facebook" target="_blank">facebook</a>
+					<a href="https://github.com/koumoto" class="lsf github" target="_blank">github</a>
+					<a href="https://www.instagram.com/junjunkoumoto" class="lsf instagram" target="_blank">instagram</a>
+				</div>
+			</div>
+	    </div>
+	</div>
+
+</body>
+</html>

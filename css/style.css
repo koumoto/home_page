@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'LigatureSymbols';
+    src: url('./LigatureSymbols-2.11.eot');
+    src: url('./LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'),
+         url('./LigatureSymbols-2.11.woff') format('woff'),
+         url('./LigatureSymbols-2.11.ttf') format('truetype'),
+         url('./LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');
+    src: url('./LigatureSymbols-2.11.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@CHARSET "ISO-8859-1";
+/* Reset CSS
+ * --------------------------------------- */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+a{
+	text-decoration:none;
+}
+table {
+    border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+}
+strong{
+	font-weight: bold;
+}
+ol,ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+caption,th {
+    text-align: left;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    color:#f2f2f2;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym {
+	border: 0;
+}
+
+/* Custom CSS
+ * --------------------------------------- */
+body{
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: #f2f2f2;
+}
+h1{
+	font-family: 'Bree Serif', serif;
+	font-size: 6em;
+}
+
+h2{
+	font-size: 4em;
+}
+p{
+	font-size: 1em;
+}
+.section{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+.twitter-share-button{
+	position: fixed !important;
+	z-index: 99;
+	right: 149px;
+	top: 9px;
+}
+
+/* Section 1
+ * --------------------------------------- */
+#section1 h1{
+	color: #444;
+}
+
+#section1 h2{
+	color: #444;
+}
+#section1 p{
+	color: #333;
+	color: rgba(0,0,0,0.3);
+}
+#section1 img{
+	margin: 20px 0;
+	opacity: 0.7;
+}
+
+/* Section 2
+ * --------------------------------------- */
+#section2 h1,
+#section2 p{
+	z-index: 3;
+	color: white;
+}
+#section2 h2 {
+	font-family: 'Bree Serif', serif;
+	font-size: 2em;
+}
+
+#section2 .intro{
+	text-align:center;
+}
+#section2 table {
+	margin: auto;
+}
+
+#section2 td{
+	padding: 20px;
+}
+
+#section2 .pro{
+	text-align:left;
+	padding: 30px;
+	width: 80%;
+}
+#section2 img {
+	padding: 50px;
+}
+
+/* Section 3
+ * --------------------------------------- */
+
+.skills-wrapper {
+	display: table;
+	width: 95%;
+	table-layout: fixed;
+}
+
+.skill-title {
+	font-family: 'Bree Serif', serif;
+	font-size: 0.8em;
+	margin: 0 20px;
+}
+
+.skill-text {
+	line-height: 2;
+	text-align: left;
+}
+
+.skill-box {
+	padding: 0px 20px;
+	display: table-cell;
+}
+
+.skill-box img {
+	width: 60px;
+	height: 60px;
+}
+
+/* Section 4
+ * --------------------------------------- */
+ #section4 .contact-button{
+	font-size: 2.4em;
+	font-weight: bold;
+	padding: 10px 30px;
+	background-color: #248;
+	color: #fff;
+	border-style: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#section4 h1{
+	color: black;
+}
+
+#section4 h2{
+	font-size: 2em;
+	color: black;
+}
+#section4 .contact-button:hover {
+	opacity: 0.8;
+}
+
+#section4 .spacer {
+	padding: 20px;
+}
+
+.lsf, .lsf-icon:before {
+	font-family: 'LigatureSymbols';
+	-webkit-text-rendering: optimizeLegibility;
+	-moz-text-rendering: optimizeLegibility;
+	-ms-text-rendering: optimizeLegibility;
+	-o-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+a{
+	font-size: 50px;
+	padding: 20px;
+}
+  
+.lsf-icon:before {
+	content:attr(title);
+	margin-right:0.3em;
+}
