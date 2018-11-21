@@ -65,14 +65,15 @@ body{
 }
 h1{
 	font-family: 'Bree Serif', serif;
-	font-size: 6em;
+	font-size: 8em;
 }
 
 h2{
-	font-size: 4em;
+	font-size: 5em;
 }
 p{
 	font-size: 1em;
+	
 }
 .section{
 	font-family: 'Open Sans', sans-serif;
@@ -84,6 +85,13 @@ p{
 	z-index: 99;
 	right: 149px;
 	top: 9px;
+}
+
+.exp {
+	font-size: 2em;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
 }
 
 /* Section 1
@@ -129,8 +137,8 @@ p{
 
 #section2 .pro{
 	text-align:left;
-	padding: 30px;
-	width: 80%;
+	padding: 0px;
+	width: 100%;
 }
 #section2 img {
 	padding: 50px;
@@ -154,6 +162,10 @@ p{
 .skill-text {
 	line-height: 2;
 	text-align: left;
+	font-size: 2em;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
 }
 
 .skill-box {
