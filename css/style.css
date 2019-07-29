@@ -218,3 +218,30 @@ a{
 	content:attr(title);
 	margin-right:0.3em;
 }
+
+/* Section 5
+ * --------------------------------------- */
+
+#section5 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#section5 .card-link {
+	font-size: 2em;
+}
+
+#section5 .inline {
+	display: inline-block;
+	margin: 0px 30px;
+	height: 80%;
+}
+
+#section5 .card-title, .card-text {
+	color: black;
+	font-size: 2em;
+}
+
+#section5 .card-text, #section5 .card-link {
+	font-size: 1em;
+}
+

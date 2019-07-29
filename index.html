@@ -38,15 +38,15 @@
 	<script type="text/javascript" src="./js/jquery.pagepiling.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
-	    	$('#pagepiling').pagepiling({
-			    sectionsColor: ['#bfda00', '#2ebe21', '#2e5e2f', '#ffffff'],
-			    navigation: {
-			    	'position': 'right',
-			   		'tooltips': ['ホーム', 'プロフィール', 'スキル', 'コンタクト']
-			   	}
+			$('#pagepiling').pagepiling({
+				sectionsColor: ['#bfda00', '#2ebe21','#bfda00' ,'#2e5e2f', '#ffffff'],
+				navigation: {
+					'position': 'right',
+					'tooltips': ['ホーム', 'プロフィール', 'Work','スキル', 'コンタクト']
+				}
 			});
-	    });
-    </script>
+		});
+	</script>
 </head>
 <body>
 	<!-- Google Tag Manager (noscript) -->
@@ -55,17 +55,17 @@
 	<!-- End Google Tag Manager (noscript) -->
 
 	<div id="pagepiling">
-		
+
 	    <div class="section" id="section1">
 			<div class="container">
-	    		<h1>河本純一 <br> WEB SITE</h1>
+				<h1>河本純一 <br> WEB SITE</h1>
 				<h2>～ Java Engineer ～</h2>
 				<br />
 			</div>
 		</div>
 		
-	    <div class="section" id="section2">
-	    	<div class="intro container">
+		<div class="section" id="section2">
+			<div class="intro container">
 				<div class="row">
 					<div class="col-lg-4 col-sm-12">
 						<img src="./imgs/face.png">
@@ -81,8 +81,42 @@
 						</div>
 					</div>
 				</div>
-	    	</div>
+			</div>
 		</div>
+		
+		<div class="section" id="section5">
+			<div class="intro container">
+				<h2>Work</h2>
+				<div class="card inline" style="width:15rem;">
+					<img class="card-img-top" src="./imgs/cap1.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">ホームページ</h5>
+						<br>
+						<p class="card-text">自身のホームページ</p>
+						<a href="https://www.koumotoj.com" class="card-link">home-page</a>
+					</div>
+				</div>
+					
+				<div class="card inline" style="width:15rem;">
+					<img class="card-img-top" src="./imgs/face.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Coming Soon...</h5>
+						<p class="card-text">Coming Soon...</p>
+						<a href="#" class="card-link">Coming Soon...</a>
+					</div>
+				</div>
+					
+				<div class="card inline" style="width:15rem;">
+					<img class="card-img-top" src="./imgs/face.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Coming Soon...</h5>
+						<p class="card-text">Coming Soon...</p>
+						<a href="#" class="card-link">Coming Soon...</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="section " id="section3">
 			<div class="container">
 	    		<h1>Skills</h1>
@@ -139,10 +173,11 @@
 				</div>
 				</div>
 			</div>
-	    </div>
+		</div>
+
 	    <div class="section" id="section4">
 			<div class="container">
-	    		<div class="contact">
+				<div class="contact">
 					<h1>Contact</h1>
 					<div class="spacer"></div>
 					<h2>junjun@koumotoj.com</h2>
@@ -157,7 +192,7 @@
 					</div>
 				</div>
 			</div>
-	    </div>
+		</div>
 	</div>
 
 </body>
