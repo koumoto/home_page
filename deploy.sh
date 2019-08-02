@@ -6,8 +6,9 @@ cd home_page
 
 git pull
 
-sudo cp -r ./* /usr/share/nginx/html/
-
-sudo rm /usr/share/nginx/html/deploy.sh
+sudo cp ./index.html /usr/share/nginx/html/
+sudo cp -r ./css /usr/share/nginx/html/
+sudo cp -r ./imgs /usr/share/nginx/html/
+sudo cp -r ./js /usr/share/nginx/html/
 
 echo 'デプロイ成功'
