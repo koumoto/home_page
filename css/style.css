@@ -126,6 +126,10 @@ p{
 	padding: 30px;
 }
 
+#section1 h1 {
+	font-family: 'Bree Serif', sans-serif;
+}
+
 /* Section 2
  * --------------------------------------- */
 #section2 h1,
