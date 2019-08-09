@@ -268,3 +268,16 @@ a{
 #section5 h2 {
 	font-family: 'Bree Serif', serif;
 }
+
+/* Section 6
+ * --------------------------------------- */
+
+#section6 #canvas {
+	width: 80%;
+	height: 80%;
+}
+
+#section6 h1 {
+	color: black;
+}
+
